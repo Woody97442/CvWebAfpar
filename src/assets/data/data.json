@@ -3,7 +3,7 @@
     "title":"E-LoGame",
     "catch_phrase":"Vous cherchez un développeur professionnel et fiable ? Découvrez mon profil et mes réalisations sur mon site.",
     "btn_header_name":"Visité la Galerie photo",
-    "btn_header_link":"['/galerie']",
+    "btn_header_link":"/galerie",
     "infocv":{
       "about_me":{
         "name": "Brian Wood",
@@ -12,228 +12,255 @@
         "avatar_alt": "Photo Brian Wood"
       },
       "skills":{
-        "language":{
-          "0":[
-            "Html5",
-            "faHtml5",
-            "#e34c26",
-            100
-          ],
-          "1":[
-            "Css",
-            "faCss3",
-            "#264de4",
-            100
-          ],
-          "2":[
-            "JavaScript",
-            "faJsSquare",
-            "#F0DB4F",
-            70
-          ],
-          "3":[
-            "C++",
-            "cplusicon",
-            "",
-            70
-          ]
+        "language":[
+          {
+            "name": "Html5",
+            "icon": "faHtml5",
+            "color": "#e34c26",
+            "value": "100%"
+          },
+          {
+            "name": "Css",
+            "icon": "faCss3",
+            "color": "#264de4",
+            "value": "100%"
+          },
+          {
+            "name": "JavaScript",
+            "icon": "faJsSquare",
+            "color": "#F0DB4F",
+            "value": "70%"
+          },
+          {
+            "name": "C++",
+            "icon": "cplusicon",
+            "color": "",
+            "value": "70%"
+          }
+        ],
+        "frameworks":[
+          {
+            "name": "AngularJS",
+            "icon": "faAngular",
+            "color": "#B52E31",
+            "value": "70%"
+          },
+          {
+            "name": "VueJS",
+            "icon": "faVuejs",
+            "color": "#41b883",
+            "value": "40%"
+          },
+          {
+            "name": "Bootstrap 5",
+            "icon": "faBootstrap",
+            "color": "#563d7d",
+            "value": "90%"
+          }
+        ]
+      },
+      "professionnal_career":[
+        {
+          "title": "Formation DWWM (Développeur web et web mobile)",
+          "date": "10/2022 - En cours",
+          "entreprise": "Afpar",
+          "lieu": "Plateau-Caillou",
+          "desc": "Formation diplomante"
         },
-        "frameworks":{
-          "0":[
-            "AngularJS",
-            "faAngular",
-            "#B52E31",
-            70
-          ],
-          "1":[
-            "VueJS",
-            "faVuejs",
-            "#41b883",
-            40
-          ],
-          "2":[
-            "Bootstrap 5",
-            "faBootstrap",
-            "#563d7d",
-            90
-          ]
+        {
+          "title": "Ouverture de mon entreprise en indépendant",
+          "date": "07/2021 - En Pause",
+          "entreprise": "E-LoGame",
+          "lieu": "La Possession",
+          "desc": "Développement de jeux vidéo et application mobile, modélisation 3d."
+        },
+        {
+          "title": "Traiteur En Boulangerie Pâtisserie",
+          "date": "03/2020 - 08/2020",
+          "entreprise": "O' Copain",
+          "lieu": "St Denis",
+          "desc": "Contrat d'apprentissage en ECM (Employé commercial en magasin)."
+        },
+        {
+          "title": "Caissier Pompiste",
+          "date": "04/2018 - 04/2018",
+          "entreprise": "Engine",
+          "lieu": "Le Tampon",
+          "desc": "CDD - Distribution de carburant aux clients après avoir noté le niveau d'approvisionnement souhaité en veillant à bien utiliser la bonne pompe, proposant ainsi un service complet et de qualité."
+        },
+        {
+          "title": "Caissier de Nuit",
+          "date": "01/2015 - 10/2017",
+          "entreprise": "Vito terre-rouge",
+          "lieu": "Saint Pierre",
+          "desc": "Réponse aux demandes de renseignements des clients. Comptage du fonds de caisse, rangement de la monnaie et des espèces pour la mise au coffre. Traitement des anomalies : problème de lecture des codes-barres, article cassé ou impropre à la vente, erreur de prix. Gestion des règlements clients (chèques, espèces, carte bancaire), remise des tickets de caisse. Entretien du poste de travail, respect des règles d'hygiène et de sécurité, nettoyage du tapis roulant en cours de service si besoin. Contrôle de la bonne tenue des présentoirs de caisse, signalement des besoins d'approvisionnement (bonbons, magazines …). Réalisation d'inventaires, comptage des articles par référence produit, renseignement des quantités dans l'outil, remise en ordre des rayons."
         }
-      },
-      "professionnal_career":{
-        "0":[
-          "Formation DWWM (Développeur web et web mobile)",
-          "10/2022 - En cours",
-          "Afpar",
-          "Plateau-Caillou",
-          "Formation diplomante"
-        ],
-        "1":[
-          "Ouverture de mon entreprise en indépendant",
-          "07/2021 - En Pause",
-          "E-LoGame",
-          "La Possession",
-          "Développement de jeux vidéo et application mobile, modélisation 3d."
-        ],
-        "2":[
-          "Traiteur En Boulangerie Pâtisserie",
-          "03/2020 - 08/2020",
-          "O' Copain",
-          "St Denis",
-          "Contrat d'apprentissage en ECM (Employé commercial en magasin)."
-        ],
-        "3":[
-          "Caissier Pompiste",
-          "04/2018 - 04/2018",
-          "Engine",
-          "Le Tampon",
-          "CDD - Distribution de carburant aux clients après avoir noté le niveau d'approvisionnement souhaité en veillant à bien utiliser la bonne pompe, proposant ainsi un service complet et de qualité."
-        ],
-        "4":[
-          "Caissier de Nuit",
-          "01/2015 - 10/2017",
-          "Vito terre-rouge",
-          "Saint Pierre",
-          "<br>Réponse aux demandes de renseignements des clients.<br><br> Comptage du fonds de caisse, rangement de la monnaie et des espèces pour la mise au coffre. <br><br>Traitement des anomalies : problème de lecture des codes-barres, article cassé ou impropre à la vente, erreur de prix.<br><br> Gestion des règlements clients (chèques, espèces, carte bancaire), remise des tickets de caisse.<br><br> Entretien du poste de travail, respect des règles d'hygiène et de sécurité, nettoyage du tapis roulant en cours de service si besoin.<br><br> Contrôle de la bonne tenue des présentoirs de caisse, signalement des besoins d'approvisionnement (bonbons, magazines …).<br><br> Réalisation d'inventaires, comptage des articles par référence produit, renseignement des quantités dans l'outil, remise en ordre des rayons."
-        ]
-      },
-      "formation":{
-        "id":"",
-        "0":[
-          "CAP : Pâtissier, 2010 – 2012",
-          "Lycée hôtelier La Renaissance",
-          "Plateaux Cailloux"
-        ]
-      },
+      ],
+      "formation":[
+        {
+          "title": "CAP : Pâtissier, 2010 – 2012",
+          "etablisement": "Lycée hôtelier La Renaissance",
+          "lieu": "Plateaux Cailloux"
+        }
+      ],
       "information":{
         "hobbies_list":[
-          "La nature",
-          "l'art",
-          "la cuisine",
-          "informatique",
-          "la famille"
+          "La nature ",
+          "l'art ",
+          "la cuisine ",
+          "informatique ",
+          "la famille "
         ],
-        "language":{
-          "0":[
-            "Français",
-            "Langue maternelle"
-          ]
-        }
-      },
-      "achievements":{
-        "0":[
-          "Vide",
-          "#"
-        ],
-        "1":[
-          "Vide",
-          "#"
+        "language":[
+          {
+            "language": "Français",
+            "origine": "Langue maternelle"
+          }
         ]
-      }
+      },
+      "achievements":[
+        {
+          "title": "je suit un site web",
+          "url": "#"
+        },
+        {
+          "title": "Vide",
+          "url": "#"
+        }
+      ]
     }
   },
   "galerie_page":{
-    "img":{
-      "0":[
-        "0",
-        "",
-        "assets/img/album/0000.png"
-      ],
-      "1":[
-        "1",
-        "",
-        "assets/img/album/0001.png"
-      ]
-    }
+    "img":[
+      {"name": "Tv rétro","alt": "Tv rétro","url_img": "assets/img/album/0000","extension": ".png"},
+      {"name": "Maison chocolat", "alt":"Maison chocolat", "url_img": "assets/img/album/0001", "extension": ".jpg"},
+      {"name": "Meuble en bois", "alt":"Meuble en bois", "url_img": "assets/img/album/0002", "extension": ".jpg"},
+      {"name": "Item de chantier", "alt":"Item de chantier", "url_img": "assets/img/album/0003", "extension": ".jpg"},
+      {"name": "Poule Gentleman", "alt":"Poule Gentleman", "url_img": "assets/img/album/0004", "extension": ".png"},
+      {"name": "Menu jeux chicken run multiplayer", "alt":"Menu jeux chicken run multiplayer", "url_img": "assets/img/album/0005", "extension": ".png"},
+      {"name": "Menu shop jeux chicken run multiplayer", "alt":"Menu shop jeux chicken run multiplayer", "url_img": "assets/img/album/0006", "extension": ".png"},
+      {"name": "Menu cutom jeux chicken run multiplayer", "alt":"Menu cutom jeux chicken run multiplayer", "url_img": "assets/img/album/0007", "extension": ".png"},
+      {"name": "Village cartoon", "alt":"Village cartoon", "url_img": "assets/img/album/0008", "extension": ".png"},
+      {"name": "Interface jeux chicken run", "alt":"Interface jeux chicken run", "url_img": "assets/img/album/0009", "extension": ".PNG"},
+      {"name": "Interface jeux chicken run", "alt":"Interface jeux chicken run", "url_img": "assets/img/album/0010", "extension": ".PNG"},
+      {"name": "Interface jeux chicken run", "alt":"Interface jeux chicken run", "url_img": "assets/img/album/0011", "extension": ".PNG"},
+      {"name": "Interface jeux chicken run", "alt":"Interface jeux chicken run", "url_img": "assets/img/album/0012", "extension": ".PNG"},
+      {"name": "Map jeux chicken run", "alt":"Map jeux chicken run", "url_img": "assets/img/album/0013", "extension": ".PNG"},
+      {"name": "Map jeux chicken run", "alt":"Map jeux chicken run", "url_img": "assets/img/album/0014", "extension": ".PNG"},
+      {"name": "Interface jeux chicken run", "alt":"Interface jeux chicken run", "url_img": "assets/img/album/0015", "extension": ".PNG"},
+      {"name": "Interface jeux chicken run", "alt":"Interface jeux chicken run", "url_img": "assets/img/album/0016", "extension": ".PNG"},
+      {"name": "Voiture cartoon", "alt":"Voiture cartoon", "url_img": "assets/img/album/0017", "extension": ".png"},
+      {"name": "Maison chocolat", "alt":"Maison chocolat", "url_img": "assets/img/album/0018", "extension": ".jpg"},
+      {"name": "fauteuille en cuire", "alt":"fauteuille en cuire", "url_img": "assets/img/album/0019", "extension": ".png"},
+      {"name": "fauteuille en cuire", "alt":"fauteuille en cuire", "url_img": "assets/img/album/0020", "extension": ".jpg"},
+      {"name": "carte E-LoGame", "alt":"carte E-LoGame", "url_img": "assets/img/album/0021", "extension": ".png"},
+      {"name": "Trophée jeux Arcaduis", "alt":"Trophée jeux Arcaduis", "url_img": "assets/img/album/0022", "extension": ".png"},
+      {"name": "Meuble en bois", "alt":"Meuble en bois", "url_img": "assets/img/album/0023", "extension": ".png"},
+      {"name": "Coucou cartoon", "alt":"Coucou cartoon", "url_img": "assets/img/album/0024", "extension": ".jpg"},
+      {"name": "Atari", "alt":"Atari", "url_img": "assets/img/album/0025", "extension": ".png"},
+      {"name": "Atari", "alt":"Atari", "url_img": "assets/img/album/0027", "extension": ".jpg"},
+      {"name": "Scene Arcaduis", "alt":"Scene Arcaduis", "url_img": "assets/img/album/0028", "extension": ".png"},
+      {"name": "Interface Arcaduis", "alt":"Interface Arcaduis", "url_img": "assets/img/album/0029", "extension": ".PNG"},
+      {"name": "Interface Arcaduis", "alt":"Interface Arcaduis", "url_img": "assets/img/album/0030", "extension": ".PNG"},
+      {"name": "Interface Arcaduis", "alt":"Interface Arcaduis", "url_img": "assets/img/album/0031", "extension": ".PNG"},
+      {"name": "Interface Arcaduis", "alt":"Interface Arcaduis", "url_img": "assets/img/album/0032", "extension": ".png"},
+      {"name": "The Cube", "alt":"The Cube", "url_img": "assets/img/album/0033", "extension": ".jpg"},
+      {"name": "Village cartoon", "alt":"Village cartoon", "url_img": "assets/img/album/0034", "extension": ".jpg"},
+      {"name": "Village cartoon", "alt":"Village cartoon", "url_img": "assets/img/album/0035", "extension": ".jpg"},
+      {"name": "Village cartoon", "alt":"Village cartoon", "url_img": "assets/img/album/0036", "extension": ".jpg"},
+      {"name": "Village cartoon", "alt":"Village cartoon", "url_img": "assets/img/album/0037", "extension": ".jpg"},
+      {"name": "Village cartoon", "alt":"Village cartoon", "url_img": "assets/img/album/0038", "extension": ".jpg"},
+      {"name": "Village cartoon", "alt":"Village cartoon", "url_img": "assets/img/album/0039", "extension": ".jpg"},
+      {"name": "Village cartoon", "alt":"Village cartoon", "url_img": "assets/img/album/0040", "extension": ".jpg"},
+      {"name": "Village cartoon", "alt":"Village cartoon", "url_img": "assets/img/album/0041", "extension": ".jpg"},
+      {"name": "Village cartoon", "alt":"Village cartoon", "url_img": "assets/img/album/0042", "extension": ".jpg"},
+      {"name": "Village cartoon", "alt":"Village cartoon", "url_img": "assets/img/album/0043", "extension": ".jpg"},
+      {"name": "Village cartoon", "alt":"Village cartoon", "url_img": "assets/img/album/0044", "extension": ".jpg"},
+      {"name": "Village cartoon", "alt":"Village cartoon", "url_img": "assets/img/album/0045", "extension": ".jpg"},
+      {"name": "Village cartoon", "alt":"Village cartoon", "url_img": "assets/img/album/0046", "extension": ".jpg"},
+      {"name": "Village cartoon", "alt":"Village cartoon", "url_img": "assets/img/album/0047", "extension": ".jpg"},
+      {"name": "Village cartoon", "alt":"Village cartoon", "url_img": "assets/img/album/0048", "extension": ".jpg"},
+      {"name": "Poule Base", "alt":"Poule Base", "url_img": "assets/img/album/0049", "extension": ".jpg"}
+    ]
   },
   "navigate_bar":{
       "brand_name": "Mon CV Web",
-      "brand_link":"['']",
-      "nav_blocks":{
-        "0":[
-          "Accueil",
-          "['']"
-        ],
-        "1":[
-          "Biographie",
-          "#Biographie"
-        ],
-        "2":[
-          "Compétences",
-          "#Competences"
-        ],
-        "3":[
-          "Parcours",
-          "#Parcours"
-        ],
-        "4":[
-          "Formations",
-          "#Formations"
-        ],
-        "5":[
-          "Informations",
-          "#Informations"
-        ],
-        "6":[
-          "Mes Réalisations",
-          "#MesRealisations"
-        ],
-        "7":[
-          "Galerie",
-          "['/galerie']"
-        ]
-      }
+      "brand_link":"",
+      "nav_blocks":[
+        {
+          "name": "Biographie",
+          "link": "#Biographie"
+        },
+        {
+          "name": "Compétences",
+          "link": "#Competences"
+        },
+        {
+          "name": "Parcours",
+          "link": "#Parcours"
+        },
+        {
+          "name": "Formations",
+          "link": "#Formations"
+        },
+        {
+          "name": "Informations",
+          "link": "#Informations"
+        },
+        {
+          "name": "Mes Réalisations",
+          "link": "#MesRealisations"
+        }
+      ],
+      "nav_root":[
+        {
+          "nav_root_name":"Accueil",
+          "nav_root_link":""
+        },
+        {
+          "nav_root_name":"Galerie",
+          "nav_root_link":"/galerie"
+        }
+      ]
     },
   "footer":{
     "copyrite": "E-LoGame",
-    "tab":[
-      [
-        "Accueil",
-        "#top"
+    "nav_blocks_footer":[
+      {
+          "name": "Accueil",
+          "link": "#top"
+        },
+      {
+          "name":"Biographie",
+          "link":"#Biographie"
+        },
+      {
+          "name":"Compétences",
+          "link":"#Competences"
+        },
+      {
+          "name":"Parcours",
+          "link":"#Parcours"
+        },
+      {
+          "name":"Formations",
+          "link":"#Formations"
+        },
+      {
+          "name":"Informations",
+          "link":"#Informations"
+        },
+      {
+          "name":"Mes Réalisations",
+          "link":"#MesRealisations"
+        }
       ],
-      [
-        "Biographie",
-        "#Biographie"
-      ]
-      ,
-      [
-        "Test",
-        "#Test"
-      ]
+    "root":[
+      {
+        "root_name":"Galerie",
+        "root_link":"/galerie"
+      }
     ],
-    "nav_blocks_footer":{
-      "0":[
-          "Accueil",
-          "#top"
-        ],
-      "1":[
-          "Biographie",
-          "#Biographie"
-        ],
-      "2":[
-          "Compétences",
-          "#Competences"
-        ],
-      "3":[
-          "Parcours",
-          "#Parcours"
-        ],
-      "4":[
-          "Formations",
-          "#Formations"
-        ],
-      "5":[
-          "Informations",
-          "#Informations"
-        ],
-      "6":[
-          "Mes Réalisations",
-          "#MesRealisations"
-        ],
-      "7":[
-          "Galerie",
-          "['/galerie']"
-        ]
-    },
     "contact":{
       "location":"28 rue Leconte de lisle, 97419, La Possession",
       "phone_number":"0692687480",

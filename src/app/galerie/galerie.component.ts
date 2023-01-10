@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ImageService } from '../img-template/shared/image.service';
-
+import { HttpClient } from '@angular/common/http';
 
 
 @Component({
@@ -10,20 +9,30 @@ import { ImageService } from '../img-template/shared/image.service';
 })
 export class GalerieComponent implements OnInit{
 
-  avatar : string =  "assets/img/LogoWoody.jpg";
-  cplusicon : string =  "assets/img/c.svg";
-  isDarken = false;
-
-  visibleImages: any[] = [];
-
-  constructor(private imageService: ImageService){
+  //Déclaration des variable
+  public galerieTab: [{ "name": string, "alt": string, "url_img": string, "extension": string },];
   
-    this.visibleImages = this.imageService.getImages();
+  ngOnInit(){ this.LoadDataJson();}
+
+  constructor(private http: HttpClient){
+  
+    // initialisation des variable
+
+    //galerie var
+    this.galerieTab = [ {"name": "", "alt": "", "url_img": "", "extension": "" },];
 
   }
   
-  ngOnInit(){ 
-
-  }
   
+  public LoadDataJson(){
+    return this.http.get("assets/data/data.json")
+    .subscribe((data) =>{
+      let jsonObj = Object.create(data);
+
+      //galerie
+      this.galerieTab = jsonObj["galerie_page"]["img"];
+
+    });
+  }
+
 }

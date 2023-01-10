@@ -10,8 +10,8 @@
 <div class="container-fluid mt-5">
 
     <ul class="container text-center">
-        <li *ngFor="let image of visibleImages">
-            <img src="{{image.url}}" alt="{{image.title}}" width="200" height="200" class="tn" title="{{image.title}}">
+        <li *ngFor="let image of galerieTab">
+            <img src="{{image.url_img + image.extension}}" alt="{{image.alt}}" width="200" height="200" class="tn" title="{{image.name}}">
         </li>
     </ul>
 

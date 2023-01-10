@@ -4,12 +4,11 @@ import { NgParticlesModule } from "ng-particles";
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ReactiveFormsModule } from '@angular/forms';
-import  {  FontAwesomeModule  }  from  '@fortawesome/angular-fontawesome';
+import  { FontAwesomeModule }  from  '@fortawesome/angular-fontawesome';
+
 
 import { AccueilComponent } from './accueil/accueil.component';
 import { GalerieComponent } from './galerie/galerie.component';
-import { ImgTemplateComponent } from './img-template/img-template.component' ;
-import { ImageService } from './img-template/shared/image.service';
 import { HttpClientModule } from '@angular/common/http';
 
 
@@ -19,7 +18,6 @@ import { HttpClientModule } from '@angular/common/http';
     AppComponent,
     AccueilComponent,
     GalerieComponent,
-    ImgTemplateComponent,
   ],
   imports: [
     BrowserModule,
@@ -27,9 +25,10 @@ import { HttpClientModule } from '@angular/common/http';
     ReactiveFormsModule,
     FontAwesomeModule,
     NgParticlesModule,
-    HttpClientModule
+    HttpClientModule,
+
   ],
-  providers: [ImageService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
